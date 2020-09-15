@@ -25,7 +25,6 @@ ul {
 a {
     text-decoration: none;
     font-style: normal;
-    color: #757575;
 }
 
 a:hover,
@@ -34,6 +33,7 @@ a:focus {
 }
 
 .logo {
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -46,9 +46,10 @@ a:focus {
     color: #000000;
 }
 
-
 .site-nav a {
     color:#212121;
+    font-weight: 500;
+    font-size: 14px;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -57,14 +58,25 @@ a:focus {
 
 .address {
     font-style: normal;
+    font-weight: 500;
+}
+
+.site-nav .link:active {
+    color: #2196f3;
 }
 
 .auth-nav a {
     color: #757575;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .auth-nav a:hover,
 .auth-nav a:focus {
     color: #2196F3;
+}
+
+.portfolio-page a:active {
+    color: #2196f3;
 }
 
 .hero-title {
@@ -138,11 +150,16 @@ a:focus {
 }
 
 .footer {
+    color: rgba(255, 255, 255, 0.6);;
     background: #2F303A;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .filter-button {
@@ -153,6 +170,7 @@ a:focus {
     letter-spacing: 0.03em;
     color: #212121;
 }
+
 .filter-button:hover,
 .filter-button:focus {
     color: #FFFFFF;
