@@ -64,9 +64,6 @@ a:focus {
 .studio-page {
     color: #2196f3;
 }
-.studio-page:active {
-    color: #2196f3;
-}
 
 .auth-nav a {
     color: #757575;
@@ -78,9 +75,6 @@ a:focus {
     color: #2196F3;
 }
 
-.portfolio-page a:active {
-    color: #2196f3;
-}
 .portfolio-page {
     color: #2196f3;
 }
